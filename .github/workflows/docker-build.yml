@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      
+      - run: wget https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.img
 
       - name: Change String Case
         id: string

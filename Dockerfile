@@ -1,3 +1,3 @@
 FROM scratch
 
-COPY focal-server-cloudimg-amd64.img /disk/
+COPY /home/runner/work/focal-server-cloudimg-amd64/focal-server-cloudimg-amd64/focal-server-cloudimg-amd64.img /disk/
